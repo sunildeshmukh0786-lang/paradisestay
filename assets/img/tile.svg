@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <rect width="80" height="80" fill="#ffffff"/>
+  <g fill="none" stroke="#1D3F94" stroke-width="1.6">
+    <circle cx="0" cy="0" r="27"/><circle cx="80" cy="0" r="27"/><circle cx="0" cy="80" r="27"/><circle cx="80" cy="80" r="27"/>
+  </g>
+  <g fill="#1D3F94">
+    <circle cx="0" cy="0" r="17"/><circle cx="80" cy="0" r="17"/><circle cx="0" cy="80" r="17"/><circle cx="80" cy="80" r="17"/>
+    <path d="M32 0 L40 8 L48 0Z"/><path d="M32 80 L40 72 L48 80Z"/><path d="M0 32 L8 40 L0 48Z"/><path d="M80 32 L72 40 L80 48Z"/>
+    <ellipse cx="40" cy="26" rx="6.5" ry="12"/><ellipse cx="40" cy="54" rx="6.5" ry="12"/>
+    <ellipse cx="26" cy="40" rx="12" ry="6.5"/><ellipse cx="54" cy="40" rx="12" ry="6.5"/>
+    <circle cx="29" cy="29" r="2.6"/><circle cx="51" cy="29" r="2.6"/><circle cx="29" cy="51" r="2.6"/><circle cx="51" cy="51" r="2.6"/>
+  </g>
+  <g fill="#ffffff">
+    <circle cx="0" cy="0" r="8"/><circle cx="80" cy="0" r="8"/><circle cx="0" cy="80" r="8"/><circle cx="80" cy="80" r="8"/>
+    <circle cx="40" cy="40" r="7"/>
+  </g>
+  <circle cx="40" cy="40" r="3.6" fill="#F4B41A"/>
+</svg>

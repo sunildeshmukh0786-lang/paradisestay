@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Villa photo gallery | Paradise Stay</title>
+  <meta name="description" content="Photos of every Paradise Stay villa in Goa, grouped by villa and area.">
+  <meta name="theme-color" content="#1D3F94">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Villa photo gallery | Paradise Stay">
+  <meta property="og:description" content="Photos of every Paradise Stay villa in Goa, grouped by villa and area.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Rozha+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="gallery">
+  <a class="skip" href="#main">Skip to content</a>
+  <header id="site-header" class="site-header"></header>
+  <main id="main">
+    <section class="page-head">
+      <div class="wrap">
+        <p class="crumbs"><a href="index.html">Home</a> / Gallery</p>
+        <h1>Villa photos</h1>
+        <p class="lede">Scroll through each villa, or pick an area. Tap any photo to see it full screen.</p>
+        <div class="chips" id="gal-chips" role="group" aria-label="Filter by area" style="margin-top:1.5rem"></div>
+      </div>
+    </section>
+    <section class="section" style="padding-top:1rem">
+      <div class="wrap" id="gal-list"></div>
+    </section>
+  </main>
+  <footer id="site-footer" class="site-footer"></footer>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

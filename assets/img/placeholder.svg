@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#E8ECF5"/>
+  <g fill="none" stroke="#1D3F94" stroke-width="2" opacity=".35">
+    <path d="M150 210 V140 a50 50 0 0 1 100 0 V210 Z"/>
+    <path d="M180 210 V150 a20 20 0 0 1 40 0 V210"/>
+  </g>
+  <text x="200" y="245" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#56607A">Photo not available</text>
+</svg>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Villas in Goa | Paradise Stay</title>
+  <meta name="description" content="Browse every Paradise Stay villa in Goa. Filter by area and bedrooms, compare weekday and weekend prices.">
+  <meta name="theme-color" content="#1D3F94">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Villas in Goa | Paradise Stay">
+  <meta property="og:description" content="Browse every Paradise Stay villa in Goa. Filter by area and bedrooms, compare weekday and weekend prices.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Rozha+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="villas">
+  <a class="skip" href="#main">Skip to content</a>
+  <header id="site-header" class="site-header"></header>
+  <main id="main">
+    <section class="page-head">
+      <div class="wrap">
+        <p class="crumbs"><a href="index.html">Home</a> / Villas</p>
+        <h1>Villas in Goa</h1>
+        <p class="lede">Every villa we list, with weekday and weekend prices. Filter by area or size, then ask about your dates on WhatsApp.</p>
+      </div>
+    </section>
+    <div class="filters">
+      <div class="wrap">
+        <form id="filters" role="search">
+          <div class="field field-search"><label for="f-q">Search by name or area</label><input id="f-q" type="search" placeholder="e.g. Anjuna or Nirvana" autocomplete="off"></div>
+          <div class="field"><label for="f-area">Area</label><select id="f-area"></select></div>
+          <div class="field"><label for="f-bhk">Bedrooms</label><select id="f-bhk"></select></div>
+          <div class="field"><label for="f-sort">Sort by</label>
+            <select id="f-sort">
+              <option value="">Recommended</option>
+              <option value="price-asc">Price: low to high</option>
+              <option value="price-desc">Price: high to low</option>
+              <option value="bhk-desc">Bedrooms: most first</option>
+              <option value="bhk-asc">Bedrooms: fewest first</option>
+            </select>
+          </div>
+          <button type="button" class="btn btn-ghost" data-clear>Clear</button>
+        </form>
+      </div>
+    </div>
+    <section class="section" style="padding-top:2rem">
+      <div class="wrap">
+        <div class="results-bar"><p id="result-count" aria-live="polite"></p></div>
+        <div class="grid" id="villa-grid"></div>
+        <div class="empty" id="empty" hidden>
+          <h2>No villas match these filters</h2>
+          <p>Try another area or bedroom count, or clear the filters to see every villa.</p>
+          <button class="btn btn-primary" type="button" data-clear>Clear filters</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="site-footer" class="site-footer"></footer>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
