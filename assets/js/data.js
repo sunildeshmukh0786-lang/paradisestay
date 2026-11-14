@@ -5,10 +5,12 @@
 window.SITE = {
   "name": "Paradise Stay",
   "tagline": "Private villas in Goa",
-  "whatsapp": "919319180735",
-  "whatsappDisplay": "+91 93191 80735",
-  "email": "villagoo1@proton.me",
-  "address": "Audabar Savli Complex, 23-A Khinger Road Villa Credence Panchgani, Maharashtra 412805",
+ 
+"whatsapp": "919607955015",
+"whatsappDisplay": "+91 96079 55015",
+"email": "ParadiseStay@proton.me",
+"address": "H.No.452, near Happy Bar, Bouta Waddo, Assagao, Goa 403507",
+
   "hours": [
     [
       "Monday – Saturday",
